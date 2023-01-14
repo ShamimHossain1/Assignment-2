@@ -80,6 +80,13 @@ font-weight: 600;
 font-size: 16px;
 padding: 15px;
 }
+.btn-primary:hover{
+    background-color: white;
+    color: #FF900E;
+    border: 2px solid #FF900E;
+    border-radius: 8px;
+
+}
 .head-banner img{
     width: 70vw;
     margin-bottom: 45px;
@@ -162,7 +169,7 @@ margin-bottom: 30px;
 width: 506px;
 padding: 30px 30px 10px 30px;
 margin-bottom: 20px;
-box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.106);
 border-radius: 8px;
 
 }
@@ -187,6 +194,7 @@ border: none;
 text-align: center;
 
 }
+
 .exp-btn button h3{
     font-weight: 700;
 font-size: 65px;
