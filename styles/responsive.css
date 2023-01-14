@@ -160,7 +160,38 @@
    
 }
 
+/* <!------ contact us------- --> */
 
+.contact{
+    display: flex;
+    padding: 20px 20px;
+    gap: 30px;
+    flex-direction: column;
+}
+.social {
+    margin-left: 0px;
+}
+form {
+   width: 100%;
+}
+input, textarea{
+    width: 85vw;
+    padding: 10px;
+}
+textarea{
+    height: 100px;
+}
+/* ----------------- 
+    copy-right
+-----------------> */
+.copy-right{
+    padding: 20px 40px 30px 40px;
+  
+}
+.copy-right div {
+    padding: 10px;
+
+}
 
 
 }
