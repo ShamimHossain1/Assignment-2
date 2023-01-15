@@ -28,7 +28,11 @@ header{
     font-weight: 700;
     font-size: 40px;
     color: #131313;
+    transition-duration: 0.4s
 }
+.logo:hover{
+    color: #FF900E;;
+ }
 
 .menu ul {
     display: flex;
@@ -42,8 +46,14 @@ header{
 .menu ul li a {
     text-decoration: none;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 18px;
     color: #424242;
+    transition-duration: 0.4s
+}
+.menu ul li a:hover{
+    color: #FF900E;
+    
+  
 }
 
 /*----------- Head Info and Banner------------ */
@@ -79,12 +89,13 @@ color: white;
 font-weight: 600;
 font-size: 16px;
 padding: 15px;
+transition-duration: 0.4s
 }
 .btn-primary:hover{
     background-color: white;
     color: #FF900E;
-    border: 2px solid #FF900E;
-    border-radius: 8px;
+    border: 1px solid #FF900E;
+  
 
 }
 .head-banner img{
@@ -192,6 +203,11 @@ background: #FF900E;
 border-radius: 8px;
 border: none;
 text-align: center;
+transition-duration: 0.8s;
+
+}
+.exp-btn button:hover{
+    transform: scale(1.2);
 
 }
 
@@ -244,9 +260,11 @@ transition-duration: 0.4s;
 
 }
 .fact-info:hover{
-    
+   color: #FF900E;
     transform: scale(1.2);
 }
+
+
 .fact-info h3{
 font-weight: 600;
 font-size: 45px;
@@ -291,6 +309,11 @@ margin-bottom: 24px;
 }
 .sponsors div img{
     filter: grayscale(100%);
+    transition-duration: 0.5s;
+}
+.sponsors div img:hover{
+    filter: none;
+    transform: scale(1.2);
 }
 
 
